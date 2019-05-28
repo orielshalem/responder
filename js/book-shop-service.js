@@ -15,6 +15,7 @@ function createBooks() {
     gBooks = books;
     return gBooks
 }
+console.log('hi')
 
 function createBook(title, price = getRandomIntInclusive(1, 200), rating = 0) {
     return {
